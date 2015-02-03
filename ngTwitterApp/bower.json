@@ -1,0 +1,21 @@
+{
+  "name": "ngTwitterApp",
+  "version": "0.0.0",
+  "description": "AngularJS, Material Design and Twitter Streams - A Twitter Live Search Client",
+  "authors": [
+    "Michael Latham"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MikeGitIt/mikegitit.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.7.1",
+    "angular-socket-io": "~0.7.0"
+  }
+}
