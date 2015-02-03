@@ -1,0 +1,25 @@
+{
+  "name": "ngTwitterApp",
+  "version": "0.1.0",
+  "description": "AngularJS, Material Design and Twitter Streams - A Twitter Live Search App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikeGitIt/mikegitit.github.io.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Material",
+    "AngularJS",
+    "Twit"
+  ],
+  "author": "Michael Latham via Arvind Ravulavaru Tutorial",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikeGitIt/mikegitit.github.io/issues"
+  },
+  "homepage": "https://github.com/MikeGitIt/mikegitit.github.io"
+}

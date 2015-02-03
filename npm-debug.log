@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose config Skipping project config: C:\Users\c0latmi/.npmrc. (matches userconfig)
+5 error Error: EINVAL, invalid argument
+5 error     at new Socket (net.js:156:18)
+5 error     at process.stdin (node.js:664:19)
+5 error     at read (C:\Program Files\nodejs\node_modules\npm\node_modules\read\lib\read.js:18:36)
+5 error     at PromZard.prompt (C:\Program Files\nodejs\node_modules\npm\node_modules\init-package-json\node_modules\promzard\promzard.js:214:3)
+5 error     at PromZard.L (C:\Program Files\nodejs\node_modules\npm\node_modules\init-package-json\node_modules\promzard\promzard.js:177:21)
+5 error     at PromZard.walk (C:\Program Files\nodejs\node_modules\npm\node_modules\init-package-json\node_modules\promzard\promzard.js:146:5)
+5 error     at PromZard.loaded (C:\Program Files\nodejs\node_modules\npm\node_modules\init-package-json\node_modules\promzard\promzard.js:90:8)
+5 error     at PromZard.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\init-package-json\node_modules\promzard\promzard.js:57:10)
+5 error     at fs.js:271:14
+5 error     at Object.oncomplete (fs.js:107:15)
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Windows_NT 6.1.7601
+8 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "init"
+9 error cwd C:\Users\c0latmi\.babun\cygwin\home\c0latmi\Workspace4\mikegitit.github.io
+10 error node -v v0.10.33
+11 error npm -v 1.4.28
+12 error syscall uv_pipe_open
+13 error code EINVAL
+14 error errno 18
+15 verbose exit [ 18, true ]
